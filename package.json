@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "Shoe-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anum23432.github.io/Shoe-app",
+  "homepage": "https://github.com/Anum23432/Shoe-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
