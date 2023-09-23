@@ -1,32 +1,4 @@
-//  import React from 'react';
 import './App.css';
-// import Intro from './components/Intro';
-// import Pages from "./Pages";
-// import { HashRouter } from 'react-router-dom';
-
-
-
-
-
-
-// function App() {
-  
-  
-  
-//   return (
-//     <>
-    
-// <HashRouter>
-     
-// <Intro/>
-//     <Pages/>
-//     </HashRouter>
-//     </> 
-//   );
-// }
-
-// export default App;
-
 import React from "react";
 import Pages from "./Pages";
 import { BrowserRouter, Routes,Route} from "react-router-dom";
@@ -45,7 +17,7 @@ function App() {
   
 
 return(
-  <BrowserRouter>
+  <BrowserRouter basename="/Shoe-app">
   
   
     
