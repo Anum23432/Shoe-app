@@ -17,12 +17,12 @@ function App() {
   
 
 return(
-  <BrowserRouter basename="/Shoe-app">
+  <BrowserRouter >
   
   
     
    <CartProvider> 
-  <Routes>
+  <Routes basename="/Shoe-app">
         <Route path="/" element={<Pages />} />
         
            <Route  path="/Login"
