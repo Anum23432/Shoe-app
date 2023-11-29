@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import Pages from "./Pages";
-import { BrowserRouter, Routes,Route} from "react-router-dom";
+import { HashRouter, Routes,Route} from "react-router-dom";
 import Intro from './components/Intro';
 import Details from "./components/Details.js";
 import Login from "./components/Login.js";
@@ -17,7 +17,7 @@ function App() {
   
 
 return(
-  <BrowserRouter >
+  <HashRouter >
   
   
     
@@ -54,7 +54,7 @@ return(
              element={<Policy />}/>
       </Routes>
       </CartProvider>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 }
